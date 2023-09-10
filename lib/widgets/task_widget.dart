@@ -57,7 +57,7 @@ class _TaskWidgetState extends State<TaskWidget> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           _getTaskView(),
-          SizedBox(width: 20),
+          SizedBox(width: 0),
           Image.asset(widget.task.taskType.image),
         ],
       ),
